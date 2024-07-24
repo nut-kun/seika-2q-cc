@@ -6,3 +6,7 @@
 
 # macosが作成するキャッシュファイルが追跡されないように設定
 .DS_Store
+
+[user]
+        name = moon
+        email = nut-kun@users.noreply.github.com
