@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF ジェネレーター</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <h2>あなたのスキルシートの入力</h2>
+    <form id="pdfForm">
+        <label for="technology">得意な技術:</label><br>
+        <input type="text" id="technology" name="technology"><br><br>
+
+        <label for="experience">経歴:</label><br>
+        <input type="text" id="experience" name="experience"><br><br>
+
+        <label for="pr">自己PR:</label><br>
+        <input type="text" id="pr" name="pr"><br><br>
+
+        <input type="button" value="PDF生成" onclick="generatePDF()">
+    </form>
+</body>
+
+</html>
